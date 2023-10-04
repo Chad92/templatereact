@@ -15,7 +15,6 @@ src =
  styles => les fichiers sass (index, variables, fonts, sizes etc)
 
 
-
  2 Scripts : 
 
  * npm start => démarre le serveur du projet 
@@ -24,14 +23,14 @@ src =
  * npm prepare => utilise husky avant le commit
 
 
-Dépdances : 
+Dépendances : 
 
 Sass => style
-Redux 
 Material UI => composant préfaits
 Axios => requete
 React router dom => navigation
 Vite => bundle le projet 
 Jest => tests
-
+UUID => génère des keys uniques 
+Framer Motion => faire des animations
 

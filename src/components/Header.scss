@@ -1,0 +1,21 @@
+.container-menu {
+ display: flex;
+ justify-content: space-between;
+ text-align: center;
+ align-items: center;
+ margin-left: 20px;
+ margin-right: 20px;
+
+}
+.ul-header{
+ display: flex;
+ justify-content: space-between;
+ text-align: center;
+ align-items: center;
+ gap: 10px;
+}
+
+a { 
+ text-decoration: none;
+ color: white;
+}

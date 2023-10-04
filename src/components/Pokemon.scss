@@ -1,0 +1,23 @@
+.container-pokemon{
+ margin-left: 20px;
+ margin-right: 20px;
+}
+.ul-poke {
+ display: flex;
+ justify-content: space-between;
+ list-style: none;
+ text-align: center;
+ gap: 20px;
+ flex-wrap: wrap;
+}
+input {
+ padding-right: 20px;
+ padding-left: 20px;
+ padding-top: 5px;
+ padding-bottom: 5px;
+ background-color: white;
+ border: none;
+ width: 600px;
+ display: block;
+ margin: 0 auto;
+}
