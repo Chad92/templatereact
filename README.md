@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+Documentation :  
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Le boilerplate présenté se base sur un projet React en utilisant des bibliotheque comme Redux, Material UI, sass
 
-## Available Scripts
+1 Comment est décomposer le projet  : 
 
-In the project directory, you can run:
+src = 
+ atoms => composant de mes molecules (buttons, input etc...)
+ components => composants (form, header etc ...)
+ features => images, vidéos
+ layouts => 
+ molecules => ensembles d'atoms (navigation etc...)
+ pages 
+ routing => pour gérer les routes de mon projet
+ styles => les fichiers sass (index, variables, fonts, sizes etc)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Scripts
+start: Utilisé pour démarrer l'application en mode développement avec React-scripts.
+build: Utilisé pour construire l'application pour la production avec React-scripts.
+test: Exécute les tests avec Jest.
+eject: Extrait la configuration de React-scripts pour un contrôle avancé.
+prepare: Installation de Husky pour gérer les hooks Git.
+dev: Utilisé pour démarrer l'application en mode développement avec Vite.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Dépendances
 
-### `npm test`
+@mui/material: Version 5.14.11 - Kit d'interface utilisateur Material-UI pour React.
+@reduxjs/toolkit: Version 1.9.6 - Outil pour gérer l'état global de l'application dans React.
+axios: Version 1.5.1 - Bibliothèque pour effectuer des requêtes HTTP.
+framer-motion: Version 10.16.4 - Bibliothèque d'animation pour React.
+react: Version 18.2.0 - Bibliothèque principale React.
+react-dom: Version 18.2.0 - Rendu React pour le navigateur.
+react-router-dom: Version 6.16.0 - Gestion des routes pour React.
+sass: Version 1.68.0 - Préprocesseur CSS SASS.
+uuid: Version 9.0.1 - Génération de UUID (Universal Unique Identifier).
+vite: Version 4.4.9 - Un outil de développement rapide pour la création de projets web.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Dépendances de développement : 
 
-### `npm run build`
+@babel/plugin-proposal-private-property-in-object: Version 7.18.6 - Plugin Babel pour gérer les propriétés privées dans les objets.
+husky: Version 8.0.3 - Outil pour gérer les hooks Git pre-commit et pre-push.
+jest: Version 27.5.1 - Framework de test JavaScript (également listé dans les dépendances de test).
+prettier: Version 3.0.3 - Outil de formatage de code (également listé dans les dépendances de test).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Dépendances de test
+@testing-library/jest-dom: Version 5.17.0 - Utilitaire de test pour Jest pour les tests d'assertions.
+@testing-library/react: Version 13.4.0 - Bibliothèque de test pour React.
+@testing-library/user-event: Version 13.5.0 - Bibliothèque pour simuler des événements utilisateur dans les tests.
+jest: Version 27.5.1 - Framework de test JavaScript.
+eslint: Version 8.50.0 - Outil de linting pour JavaScript et React.
+eslint-plugin-react: Version 7.33.2 - Plugin ESLint pour les règles spécifiques à React.
+prettier: Version 3.0.3 - Outil de formatage de code.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
